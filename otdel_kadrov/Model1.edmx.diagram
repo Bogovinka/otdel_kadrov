@@ -4,15 +4,15 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="06227b0888f04f8aaa521d30a544b30b" Name="Diagram1">
-        <EntityTypeShape EntityType="Database1Model.Answer" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Database1Model.Class" Width="1.5" PointX="5.75" PointY="2.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="Database1Model.Logins" Width="1.5" PointX="5.75" PointY="5" IsExpanded="true" />
-        <EntityTypeShape EntityType="Database1Model.NewWorkers" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Database1Model.People" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
-        <EntityTypeShape EntityType="Database1Model.Post" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
-        <EntityTypeShape EntityType="Database1Model.Students" Width="1.5" PointX="8" PointY="2.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="Database1Model.Worker" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+      <Diagram DiagramId="06227b0888f04f8aaa521d30a544b30b" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="Database1Model.Answer" Width="1.5" PointX="1.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Class" Width="1.5" PointX="6.125" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Logins" Width="1.5" PointX="6.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.NewWorkers" Width="1.5" PointX="3.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.People" Width="1.5" PointX="1.125" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Post" Width="1.5" PointX="0.625" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Students" Width="1.5" PointX="8.375" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Database1Model.Worker" Width="1.5" PointX="3.75" PointY="7.75" IsExpanded="true" />
         <AssociationConnector Association="Database1Model.FK__NewWorker__Answe__45F365D3" ManuallyRouted="false" />
         <AssociationConnector Association="Database1Model.FK__Students__Class___38996AB5" ManuallyRouted="false" />
         <AssociationConnector Association="Database1Model.FK__NewWorker__Peopl__440B1D61" ManuallyRouted="false" />

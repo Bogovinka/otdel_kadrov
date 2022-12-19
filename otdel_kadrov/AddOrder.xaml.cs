@@ -49,7 +49,7 @@ namespace otdel_kadrov
                 MessageBox.Show("Заявка успешно отправлена");
                 Close();
             }
-            else MessageBox.Show("Заполни значения БЫДЛО");
+            else MessageBox.Show("Заполните значения");
         }
     }
 }

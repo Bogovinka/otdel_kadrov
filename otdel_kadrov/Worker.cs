@@ -17,8 +17,9 @@ namespace otdel_kadrov
         public int ID { get; set; }
         public string Surname { get; set; }
         public string Name { get; set; }
-        public Nullable<int> Post_id { get; set; }
         public string FullName => Surname + " " + Name;
+        public Nullable<int> Post_id { get; set; }
+    
         public virtual Post Post { get; set; }
     }
 }

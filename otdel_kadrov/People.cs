@@ -23,8 +23,8 @@ namespace otdel_kadrov
         public int ID { get; set; }
         public string Surname { get; set; }
         public string Name { get; set; }
-        public string Phone { get; set; }
         public string FullName => Surname + " " + Name;
+        public string Phone { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<NewWorkers> NewWorkers { get; set; }

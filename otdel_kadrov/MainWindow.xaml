@@ -22,7 +22,7 @@
         </Grid.ColumnDefinitions>
         <TextBox x:Name="loginText"  Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialDesign:HintAssist.Hint="Логин" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Cursor="IBeam" />
         <PasswordBox x:Name="passwordText" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" materialDesign:HintAssist.Hint="Пароль" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"></PasswordBox>
-        <Button x:Name="loginB" Grid.Column="1" Grid.Row="3" Content="Login" Click="loginB_Click"></Button>
-        <Label MouseDoubleClick="Label_MouseDoubleClick" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="4" VerticalAlignment="Top" FontSize="18" FontStyle="Italic" Foreground="#DD4C6301">Хочу оставить заявку</Label>
+        <Button Style="{StaticResource MaterialDesignRaisedDarkButton}" x:Name="loginB" Grid.Column="1" Grid.Row="3" Content="Login" Click="loginB_Click" BorderBrush="#FF6C716C" Cursor="Hand"/>
+        <Label MouseDoubleClick="Label_MouseDoubleClick" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="4" VerticalAlignment="Top" FontSize="18" FontStyle="Italic" Foreground="#DD080807">Хочу оставить заявку</Label>
     </Grid>
 </Window>

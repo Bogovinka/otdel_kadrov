@@ -17,9 +17,9 @@ namespace otdel_kadrov
         public int ID { get; set; }
         public string Surname { get; set; }
         public string Name { get; set; }
-        public Nullable<int> Class_id { get; set; }
         public string FullName => Surname + " " + Name;
-
+        public Nullable<int> Class_id { get; set; }
+    
         public virtual Class Class { get; set; }
     }
 }
